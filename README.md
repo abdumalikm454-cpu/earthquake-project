@@ -39,7 +39,7 @@ Traditional search-and-rescue tools (such as standalone thermal cameras or acous
 
 1.Upload sketch.ino to an Arduino Uno R3 (install dependencies listed in libraries.txt), OR open the project in VS Code with the Wokwi Simulator extension using diagram.json.
 2.Run the Python Monitoring Dashboard:
-
 Install required Python packages:pip install pyserial matplotlib
+
 3.Update the serial port (e.g., COM9 or virtual port) inside import serial.py if needed, then run:
 python "import serial.py"
